@@ -15,7 +15,7 @@ db = client["llama3_chatbot"]
 history_collection = db["chat_history"]
 
 # Load the document
-DOCUMENT_PATH = "Oxford-Handbook-of-Medical-Dermatology.txt"  # Change to your document
+DOCUMENT_PATH = "Skin-Disease-Prediction/Oxford-Handbook-of-Medical-Dermatology.txt"  # Change to your document
 text_loader = TextLoader(DOCUMENT_PATH)
 documents = text_loader.load()
 
